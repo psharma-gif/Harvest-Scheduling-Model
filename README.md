@@ -122,11 +122,6 @@ Required Python packages: NumPy, SciPy, and Matplotlib.
 ## Repository contents
 
 - `harvest_scheduling.xlsx` — Excel model and results.
-- `SOLVER_AND_FORMULAS.md` — Solver setup and formula guide.
-- `data/` — Input CSVs, optimized schedule, and scenario results.
-- `images/` — Charts and workbook previews.
-- `solve.py` — Independent optimization and chart generation.
-- `solution.json` — Full-precision base solution.
 
 ## Limitations
 
