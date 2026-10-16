@@ -101,23 +101,13 @@ Changing inputs recalculates financial results for the existing schedule. Rerun 
 
 ## Validation and reproduction
 
-The saved solution was independently calculated using Python’s SciPy/HiGHS linear programming solver.
-
 Validation checked:
 
 - Acreage balances for all six land groups.
 - Harvest-flow inequalities.
 - Minimum ending average age.
 - Nonnegative acreage decisions.
-- Agreement between workbook calculations and the independent solution.
 
-Excel’s native Solver was not run during package creation.
-
-To reproduce the independent optimization, run:
-
-python solve.py
-
-Required Python packages: NumPy, SciPy, and Matplotlib.
 
 ## Repository contents
 
@@ -129,4 +119,4 @@ This model uses aggregated acreage and fixed yield tables. It excludes whole-sta
 
 The financial output is discounted net harvest revenue over the planning horizon, not total timberland market value or land expectation value.
 
-This is a learning project demonstrating harvest scheduling concepts and Excel optimization. It does not represent professional experience with Remsoft or Woodstock.
+This is a learning project showing harvest scheduling concepts and Excel optimization. 
